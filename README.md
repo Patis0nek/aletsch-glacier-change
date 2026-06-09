@@ -115,6 +115,18 @@ Estimated glacier surface area:
 Between 2015 and 2025, the selected glacier tongue area decreased by **1.70 km²**, which corresponds to approximately **14.91%** of the 2015 area.
 
 ![Glacier area change plot](figures/06_area_change_plot.png)
+
+The main threshold-based result was calculated using NDSI > 0.25 together with the
+NDVI condition. The sensitivity test was added to check how much the calculated
+area changes when the NDSI threshold is modified.
+
+The threshold sensitivity plot shows that the estimated glacier area decreases when
+the NDSI threshold is increased. This is expected, because stricter threshold values
+classify fewer pixels as glacier. However, the order of the years stays the same for all
+tested thresholds: 2015 has the largest glacier area, 2020 is smaller and 2025 is the
+smallest. This means that the decreasing trend is stable and is not only caused by
+one selected threshold value.
+
 ![NDSI threshold values](figures/threshold_sensitivity.png)
 
 The change map below highlights the part of the glacier that was detected in 2015 but was no longer classified as glacier surface in 2025.
