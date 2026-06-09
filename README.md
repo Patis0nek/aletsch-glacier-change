@@ -4,6 +4,8 @@ This project analyzes surface area change and approximate volume change of the l
 
 The project was created for the **Image Processing in Python for Remote Sensing** course.
 
+![Glacier retreat animation](figures/glacier_years.gif)
+
 ![True and false color Sentinel-2 views](figures/01_true_false_color.png)
 
 ## Project goal
@@ -115,6 +117,7 @@ Estimated glacier surface area:
 Between 2015 and 2025, the selected glacier tongue area decreased by **1.70 km²**, which corresponds to approximately **14.91%** of the 2015 area.
 
 ![Glacier area change plot](figures/06_area_change_plot.png)
+![NDSI treshold values](figures/treshold_sensitivity.png)
 
 The change map below highlights the part of the glacier that was detected in 2015 but was no longer classified as glacier surface in 2025.
 
