@@ -127,7 +127,7 @@ tested thresholds: 2015 has the largest glacier area, 2020 is smaller and 2025 i
 smallest. This means that the decreasing trend is stable and is not only caused by
 one selected threshold value.
 
-![NDSI threshold values](figures/threshold_sensitivity.png)
+![NDSI threshold values](figures/09_threshold_sensitivity.png)
 
 The change map below highlights the part of the glacier that was detected in 2015 but was no longer classified as glacier surface in 2025.
 
